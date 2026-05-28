@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 820" role="img" aria-labelledby="title desc">
+  <title id="title">Professional mechanical engineer portrait illustration</title>
+  <desc id="desc">A clean illustrated portrait with engineering drafting elements.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#eaf4f2"/>
+      <stop offset="1" stop-color="#dfe7ef"/>
+    </linearGradient>
+    <linearGradient id="jacket" x1="0" x2="1">
+      <stop offset="0" stop-color="#183342"/>
+      <stop offset="1" stop-color="#0d766e"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="820" fill="url(#bg)"/>
+  <g opacity=".34" fill="none" stroke="#7c909d" stroke-width="2">
+    <path d="M67 110h586M67 210h586M67 310h586M67 410h586M67 510h586M67 610h586"/>
+    <path d="M110 70v676M210 70v676M310 70v676M410 70v676M510 70v676M610 70v676"/>
+    <circle cx="570" cy="180" r="58"/>
+    <path d="M520 180h100M570 130v100M132 602l102-102 70 70"/>
+  </g>
+  <g transform="translate(0 18)">
+    <path d="M180 760c24-159 88-239 180-239s156 80 180 239H180Z" fill="url(#jacket)"/>
+    <path d="M285 558l75 122 75-122c-48 24-101 24-150 0Z" fill="#f6f8f9"/>
+    <path d="M313 602h94l-47 78-47-78Z" fill="#d8902d"/>
+    <path d="M229 760c8-89 36-150 84-184l47 104 47-104c48 34 76 95 84 184H229Z" fill="#223f50" opacity=".54"/>
+    <path d="M258 315c0-82 45-145 104-145s104 63 104 145v72c0 81-47 143-104 143s-104-62-104-143v-72Z" fill="#c98f62"/>
+    <path d="M258 345c-25 2-43 22-39 51 4 28 24 44 49 40l-10-91Zm208 0c25 2 43 22 39 51-4 28-24 44-49 40l10-91Z" fill="#bd8155"/>
+    <path d="M253 298c15-86 63-139 117-139 80 0 122 67 105 166-33-12-66-34-93-69-29 32-72 48-129 42Z" fill="#16232d"/>
+    <path d="M292 371c21-11 44-11 65 0M383 371c21-11 44-11 65 0" stroke="#16232d" stroke-width="10" stroke-linecap="round"/>
+    <path d="M360 377l-14 66h33" fill="none" stroke="#9f6744" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M320 466c29 26 58 26 87 0" fill="none" stroke="#793f36" stroke-width="9" stroke-linecap="round"/>
+    <path d="M250 322c20-7 42-9 66-4M407 318c24-5 47-3 68 6" fill="none" stroke="#0b151c" stroke-width="12" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(94 92)" fill="none" stroke="#0d766e" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M0 32h62M31 0v62"/>
+  </g>
+  <g transform="translate(552 604)" fill="none" stroke="#d8902d" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M0 36h92M14 0h64l14 36-14 36H14L0 36Z"/>
+  </g>
+</svg>
