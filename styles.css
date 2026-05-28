@@ -467,6 +467,10 @@ h3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.card-grid.single {
+  grid-template-columns: minmax(0, 760px);
+}
+
 .info-card,
 .project-card,
 .stack-list article,
@@ -500,6 +504,10 @@ h3 {
   gap: 1rem;
 }
 
+.project-grid.featured-only {
+  grid-template-columns: 1fr;
+}
+
 .project-card {
   display: grid;
   grid-template-columns: 150px 1fr;
@@ -513,6 +521,12 @@ h3 {
   aspect-ratio: 1;
   border-radius: 8px;
   background: var(--surface-strong);
+}
+
+.project-card ul {
+  margin: 1rem 0 0;
+  padding-left: 1.1rem;
+  color: var(--muted);
 }
 
 .split-section {
