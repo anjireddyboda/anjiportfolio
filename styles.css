@@ -473,6 +473,7 @@ h3 {
 
 .info-card,
 .project-card,
+.highlight-card,
 .stack-list article,
 .contact-card {
   border: 1px solid var(--line);
@@ -533,6 +534,30 @@ h3 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 3rem;
+}
+
+.highlight-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.highlight-card {
+  padding: 1.25rem;
+}
+
+.highlight-card span {
+  display: inline-flex;
+  margin-bottom: 1rem;
+  color: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.highlight-card p {
+  color: var(--muted);
 }
 
 .stack-list {
@@ -658,6 +683,7 @@ h3 {
   }
 
   .card-grid.three,
+  .highlight-grid,
   .project-grid {
     grid-template-columns: 1fr;
   }
